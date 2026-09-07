@@ -1,11 +1,13 @@
 .container {
   width: 400px;
 }
+
 .red {
   height: 100px;
   background-color: #ff0000;
   position: relative;
 }
+
 .purple {
   width: 40px;
   height: 40px;
@@ -24,6 +26,7 @@
   top: 20px;
   right: 20px;
 }
+
 .center {
   height: 250px;
 }
@@ -47,17 +50,21 @@
   background-color: #ff863f;
   border: 5px solid #ffffff;
 }
+.orange:nth-child(3) {
+  margin-bottom: 0px;
+}
 .orange-white {
   position: absolute;
   top: 40px;
   left: 40px;
 }
-.yellow {
-  height: 100px;
-  background-color: #ffd000;
-}
-.center::after {
+.clearfix::after {
   content: "";
   display: block;
   clear: both;
+}
+
+.yellow {
+  height: 100px;
+  background-color: #ffd000;
 }
