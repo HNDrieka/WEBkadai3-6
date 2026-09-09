@@ -15,7 +15,7 @@
   background-color: #a9004b;
   float: left;
 }
-.purple:nth-child(1) {
+.purple:first-child {
   margin-left: 0px;
 }
 .white {
@@ -50,7 +50,7 @@
   background-color: #ff863f;
   border: 5px solid #ffffff;
 }
-.orange:nth-child(3) {
+.orange:last-child {
   margin-bottom: 0px;
 }
 .orange-white {
